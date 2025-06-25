@@ -1,0 +1,21 @@
+tr {
+    height:50px;
+
+}
+table{
+      border-collapse: collapse;
+}
+table, td, th {
+  border-bottom: 1px solid rgb(188, 188, 188);
+  padding-left: 10px;
+}
+th{
+text-align: left;
+background-color: rgb(244, 244, 244);
+    }
+
+.table{
+    display:flex;
+    justify-content: center;
+
+}
