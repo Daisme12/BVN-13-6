@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0/">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h3>Thông tin người dùng</h3>
+    <form id = "user_from">
+        <input type = "input" id ="name" placholde ="Họ tên"/>
+        <input type = "number" id ="age" placholde ="Tuổi"/>
+        <label><input type = "radio" name ="Gender" value="Nam"/>Nam</label>
+        <label><input type = "radio" name ="Gender" value="Nữ"/>Nữ</label>
+    <button type="submit" class="submit">Thêm người dùng</button>
+    </form>  
+    <h3>Danh sách người dùng</h3>
+    <table id="user_table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên</th>
+                <th>Tuổi</th>
+                <th>Giới tính</th>
+                <th>Xoá</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- data here -->
+        </tbody>
+    </table>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src ="script.js"></script>    
+</html>
